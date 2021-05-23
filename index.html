@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Review HTML, CSS & JavaScript code</title>
+
+    <style>
+        .main-list{
+            list-style: none;
+        }
+        
+        .main-nav{
+            float: right;
+        }
+        
+        .main-item{
+            display: inline-block;
+            margin: 0 7px;
+            font-size: 110%;
+            text-decoration: none;           
+        }
+
+        #html-paragraph{
+            background-color: darksalmon;
+            margin-top:5%;
+            font-size: 120%;
+
+        }
+        #copyright{
+            text-align: center;
+            margin-top: 10%;
+        }
+
+    </style>
+</head>
+<body style="background-color:rgb(243, 241, 208)">
+    <header>
+        <h1 style="text-align: center;color: rgb(28, 0, 48);">Class 01 Lab </h1>
+        <h2 style="text-align: center;color: rgb(28, 0, 48);">HTML, CSS & JavaScript</h2>
+
+        <nav class="main-nav">
+        <ul class="main-list">
+            <li class="main-item"><a href="https://github.com/RahafJ96?tab=repositories">Home</a></li>
+            <li class="main-item"><a href="#search-bar">Search</a></li>
+            <li class="main-item"><a href="#help-bar">Help</a></li>
+            <li class="main-item"><a href="https://www.google.com/">Contact us</a></li>
+           </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <img style="width:40%; margin-left:30%;" src="https://pngimg.com/uploads/welcome/welcome_PNG78.png" alt="">
+        <p id="html-paragraph">Hello there! Welcome to my website.</p>
+        <p>Here we will create a website and learn more about JavaScript, HTML and CSS </p>
+    </main>
+
+    <footer id="copyright">
+        Copyright &copy; 2010-2021  All rights reserved.
+
+    </footer>
+    <script>  
+        let userName=prompt('Please wirte you Name here:');
+        console.log(userName);
+
+        let age=prompt('How old are you?');
+        console.log(age);
+
+        let favSong=prompt("What is you favorite song?")
+        console.log(favSong);
+
+        let favMovie= prompt("What is your favorite movie")
+        console.log(favMovie)
+
+        alert('Hope you have a good day '+ userName+ '! You are '+ age + ' years old. Welcome !');
+        alert("Your favorite Movie is "+ favMovie +". And you favorite song is "+favSong ) </script>
+</body>
+</html>
